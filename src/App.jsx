@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './components/navbar/navbar';
 import { Routes , Route } from 'react-router-dom';
-import Home from './Pages/Home/Home';
-import Video from './Pages/Video/Video'; 
+import Home from './Pages/home/home'
+import Video from './Pages/video/video';
   
 const App = () => {
   return (
