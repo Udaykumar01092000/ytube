@@ -1,10 +1,10 @@
 import React from 'react';
+import Navbar from './components/navbar/navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to My YouTube Clone</h1>
-      <p>Stay tuned for updates!</p>
+      <Navbar/>
     </div>
   );
 }
