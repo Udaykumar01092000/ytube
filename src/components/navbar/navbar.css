@@ -7,6 +7,9 @@ nav{
     top: 0;
     z-index: 10;
 }
+.sidebar{
+    background : #ffffff;
+}
 .nav-left .menu-icon{
     width: 22px;
     margin-right: 25px;
