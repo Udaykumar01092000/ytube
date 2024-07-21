@@ -1,4 +1,4 @@
-import React , {useState , useEffect} from 'react'
+import React , {useState} from 'react'
 import '../home/home.css'
 import Sidebar from '../../components/navbar/sidebar/sidebar'
 import Feed from '../../components/feed/feed'
