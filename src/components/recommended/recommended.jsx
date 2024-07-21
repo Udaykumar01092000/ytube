@@ -21,7 +21,7 @@ const Recommended = () => {
             </div>
         </div>
         <div className="side-video-list">
-            <img src= {thumbnail2} alt="thumbnail1"/>
+            <img src= {thumbnail2} alt="thumbnail2"/>
             <div className="vid-info">
                 <h4>Best Channel that help you to be a devoloper</h4>
                 <p>Great Stack</p>
@@ -29,7 +29,7 @@ const Recommended = () => {
             </div>
         </div>
         <div className="side-video-list">
-            <img src= {thumbnail3} alt="thumbnail1"/>
+            <img src= {thumbnail3} alt="thumbnail3"/>
             <div className="vid-info">
                 <h4>Best Channel that help you to be a devoloper</h4>
                 <p>Great Stack</p>
@@ -37,7 +37,7 @@ const Recommended = () => {
             </div>
         </div>
         <div className="side-video-list">
-            <img src= {thumbnail4} alt="thumbnail1"/>
+            <img src= {thumbnail4} alt="thumbnail4"/>
             <div className="vid-info">
                 <h4>Best Channel that help you to be a devoloper</h4>
                 <p>Great Stack</p>
@@ -45,7 +45,7 @@ const Recommended = () => {
             </div>
         </div>
         <div className="side-video-list">
-            <img src= {thumbnail5} alt="thumbnail1"/>
+            <img src= {thumbnail5} alt="thumbnail5"/>
             <div className="vid-info">
                 <h4>Best Channel that help you to be a devoloper</h4>
                 <p>Great Stack</p>
@@ -53,7 +53,7 @@ const Recommended = () => {
             </div>
         </div>
         <div className="side-video-list">
-            <img src= {thumbnail6} alt="thumbnail1"/>
+            <img src= {thumbnail6} alt="thumbnail6"/>
             <div className="vid-info">
                 <h4>Best Channel that help you to be a devoloper</h4>
                 <p>Great Stack</p>
@@ -61,7 +61,15 @@ const Recommended = () => {
             </div>
         </div>
         <div className="side-video-list">
-            <img src= {thumbnail7} alt="thumbnail1"/>
+            <img src= {thumbnail7} alt="thumbnail7"/>
+            <div className="vid-info">
+                <h4>Best Channel that help you to be a devoloper</h4>
+                <p>Great Stack</p>
+                <p>199k Views</p>
+            </div>
+        </div>
+        <div className="side-video-list">
+            <img src= {thumbnail8} alt="thumbnail8"/>
             <div className="vid-info">
                 <h4>Best Channel that help you to be a devoloper</h4>
                 <p>Great Stack</p>
