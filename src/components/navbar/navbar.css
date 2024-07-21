@@ -1,8 +1,7 @@
-nav{
+/* nav{
     padding: 10px 2%;
     justify-content: space-between;
-    box-shadow: 0 0 10px rgba(0 , 0 , 0 , 0.2);
-    background: #fff;
+    background: #f9f9f9;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -40,4 +39,82 @@ nav{
 .nav-right .user-icon{
     width: 35px;
     border-radius: 50%;
+} */
+
+.navbar {
+    padding: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+    background: #f9f9f9;
+    position: sticky;
+    top: 0;
+    z-index: 10 !important;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    width: 22px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 130px;
+}
+
+.nav-middle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    padding: 0 8px;
+}
+
+.search-box img {
+    width: 15px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.user-icon {
+    width: 35px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .nav-middle {
+        display: none; /* Hide search box on smaller screens */
+    }
+    
+    .navbar {
+        padding: 10px;
+    }
 }
